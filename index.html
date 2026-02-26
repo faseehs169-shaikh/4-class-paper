@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haji Lal Bux Baloch School - Monthly Test</title>
+    <style>
+        /* A4 Paper Setup */
+        body {
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .page {
+            width: 210mm;
+            min-height: 297mm;
+            padding: 10mm;
+            margin: 10mm auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        /* Decorative Border */
+        .border-outer {
+            border: 3px double #000;
+            height: 100%;
+            padding: 15px;
+            box-sizing: border-box;
+            min-height: calc(297mm - 20mm);
+        }
+
+        /* Header Styling */
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .school-name {
+            font-size: 24pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin: 0;
+        }
+
+        .test-title {
+            font-size: 18pt;
+            text-decoration: underline;
+            margin: 5px 0;
+        }
+
+        .info-table {
+            width: 100%;
+            margin-top: 15px;
+            font-size: 12pt;
+            border-bottom: 2px solid #000;
+            padding-bottom: 10px;
+        }
+
+        /* Question Styling */
+        .content {
+            margin-top: 20px;
+        }
+
+        .question {
+            margin-bottom: 18px;
+            font-size: 12pt;
+            line-height: 1.6;
+        }
+
+        .q-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+        }
+
+        .answer-line {
+            border-bottom: 1px dotted #000;
+            height: 25px;
+            margin-top: 5px;
+        }
+
+        .blank {
+            display: inline-block;
+            width: 150px;
+            border-bottom: 1px solid #000;
+        }
+
+        .math-solve {
+            margin-left: 20px;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            border-top: 2px solid #000;
+            padding-top: 10px;
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        .or-section {
+            text-align: center;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        /* Printing Adjustments */
+        @media print {
+            body { background: none; }
+            .page { margin: 0; box-shadow: none; }
+            @page { size: A4; margin: 0; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="page">
+    <div class="border-outer">
+        
+        <div class="header">
+            <h1 class="school-name">HAJI LAL BUX BALOCH SCHOOL</h1>
+            <h2 class="test-title">Annual Exam 2026</h2>
+        </div>
+
+        <table class="info-table">
+            <tr>
+                <td width="40%"><strong>Class:</strong> 4</td>
+                <td width="60%" align="right"><strong>Total Marks:</strong> 100</td>
+            </tr>
+            <tr>
+                <td><strong>Subject:</strong>English</td>
+                <td></td>
+            </tr>
+            <tr style="height: 40px; vertical-align: bottom;">
+                <td><strong>Student Name:</strong> __________________________</td>
+                <td align="right"><strong>Date:</strong> ________________</td>
+            </tr>
+        </table>
+
+        <div class="content">
+            
+            <div class="question">
+                <div class="q-header">
+                    <span>Q1. Define a Noun.</span>
+                    <span>(15 Marks)</span>
+                </div>
+                <div class="answer-line"></div>
+                <div class="answer-line"></div>
+                <div class="answer-line"></div>
+            </div>
+
+            <div class="question">
+                <div class="q-header">
+                    <span>Q2. Fill in the Blanks.</span>
+                    <span>(10 Marks)</span>
+                </div>
+                a) There are ____________________ months in a year.<br>
+                b) The sun rises in the ____________________.<br>
+                c) A week has ____________________ days.<br>
+                d) We drink ____________________ to stay healthy.
+            </div>
+
+            <div class="question">
+                <div class="q-header">
+                    <span>Q3. Write any four animals’ names.</span>
+                    <span>(10 Marks)</span>
+                </div>
+                1. ______________ &nbsp;&nbsp; 2. ______________ &nbsp;&nbsp; 3. ______________ &nbsp;&nbsp; 4. ______________
+            </div>
+
+            <div class="question">
+                <div class="q-header">
+                    <span>Q4. Make two sentences using the word “School”.</span>
+                    <span>(10 Marks)</span>
+                </div>
+                1) ____________________________________________________________________<br>
+                2) ____________________________________________________________________
+            </div>
+
+            <div class="question">
+                <div class="q-header">
+                    <span>Q5. What is pronoun?</span>
+                    <span>(15 Marks)</span>
+                </div>
+                <div class="solve">
+                    ______________________________________________________________________________
+                ___________________________________________
+                </div>
+            </div>
+
+            <div class="question">
+                <div class="q-header">
+                    <span>Q6. What is the capital of Pakistan?</span>
+                    <span>(10 Marks)</span>
+                </div>
+                <div class="answer-line"></div>
+            </div>
+
+            <div class="question">
+                <div class="q-header">
+                    <span>Q7. Define a Sentence.</span>
+                    <span>(15 Marks)</span>
+                </div>
+                <div class="answer-line"></div>
+                <div class="answer-line"></div>
+                <div class="answer-line"></div>
+            </div>
+
+            <div class="question">
+                <div class="q-header">
+                    <span>Q8. Choice Question: (Attempt any ONE)</span>
+                    <span>(15 Marks)</span>
+                </div>
+                <strong>(a) Write 5 fruits names.</strong>
+                <div class="answer-line"></div>
+                
+                <div class="or-section">-- OR --</div>
+                
+                <strong>(b) Write a Alphabate from A to z.</strong>
+                <div class="answer-line"></div>
+                <div class="answer-line"></div>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            "Education is the Key to Success"
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
